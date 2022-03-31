@@ -1,7 +1,7 @@
 //let pos = 0;
 const pacArray = [
-  ['PacMan1.png', 'PacMan2.png'],
-  ['PacMan3.png', 'PacMan4.png'],
+  ['images/PacMan1.png', 'images/PacMan2.png'],
+  ['images/PacMan3.png', 'images/PacMan4.png'],
 ];
 // This variable defines what direction should PacMan go:
  //0 = left to right
@@ -85,7 +85,7 @@ function update() {
 
     item.newimg.src = pacArray[item.direction][item.focus];
   });
-  setTimeout(update, 60);
+  setTimeout(update, 100);
 }
 
 //Don't change this line, exports functions to HTML
